@@ -26,7 +26,7 @@ export default Vue.extend({
           code: "B4M35KO",
           links: [
             {
-              name: "Course Ware",
+              name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/ko/start"
             }
           ]
@@ -36,7 +36,7 @@ export default Vue.extend({
           code: "B4M01TAL",
           links: [
             {
-              name: "Marie Demlova",
+              name: "Math FELD",
               address: "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
             },
              {
@@ -60,7 +60,7 @@ export default Vue.extend({
           code: "B4M36ESW",
           links: [
             {
-              name: "Course Ware",
+              name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/b4m36esw/start"
             }
           ]
