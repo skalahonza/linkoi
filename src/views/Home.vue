@@ -32,12 +32,26 @@ export default Vue.extend({
           ]
         },
         {
-          name: "Theory of algorithms",
+          name: "Theory of Algorithms",
           code: "B4M01TAL",
           links: [
             {
               name: "Marie Demlova",
               address: "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
+            },
+             {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/course/view.php?id=4542"
+            }
+          ]
+        },
+        {
+          name: "Software Architectures",
+          code: "B4M36SWA",
+          links: [
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/course/view.php?id=4982"
             }
           ]
         }
