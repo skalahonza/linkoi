@@ -54,6 +54,16 @@ export default Vue.extend({
               address: "https://moodle.fel.cvut.cz/course/view.php?id=4982"
             }
           ]
+        },
+        {
+          name: "Effective Software",
+          code: "B4M36ESW",
+          links: [
+            {
+              name: "Course Ware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/b4m36esw/start"
+            }
+          ]
         }
       ]
     };
