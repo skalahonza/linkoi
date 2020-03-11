@@ -2,9 +2,6 @@
 node_modules
 /dist
 
-# CNAME file
-/docs/CNAME
-
 # local env files
 .env.local
 .env.*.local
