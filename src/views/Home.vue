@@ -20,7 +20,6 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
-      msg: "Hello",
       subjects: [
         {
           name: "Combinatorial Optimization",
@@ -29,6 +28,16 @@ export default Vue.extend({
             {
               name: "Course Ware",
               address: "https://cw.fel.cvut.cz/wiki/courses/ko/start"
+            }
+          ]
+        },
+        {
+          name: "Theory of algorithms",
+          code: "B4M01TAL",
+          links: [
+            {
+              name: "Marie Demlova",
+              address: "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
             }
           ]
         }
