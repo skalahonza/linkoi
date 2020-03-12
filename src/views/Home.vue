@@ -84,6 +84,16 @@ export default Vue.extend({
               address: "https://cw.fel.cvut.cz/wiki/courses/smu/start"
             }
           ]
+        },
+        {
+          name: "Visualization",
+          code: "B4M39VIZ",
+          links: [
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/enrol/index.php?id=4809"
+            }
+          ]
         }
       ]
     };
