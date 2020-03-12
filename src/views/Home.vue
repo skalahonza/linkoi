@@ -1,16 +1,20 @@
 <template>
   <div class="home">
     <div id="app">
-      <div v-for="subject in subjects" :key="subject.code">
-        <h2>{{subject.name}}</h2>
-        <h3>{{subject.code}}</h3>
-        <div class="link-group">
-          <p v-for="link in subject.links" :key="link">
-            <img src="../assets/link.png" />
-            <a target="_blank" :href="link.address">{{link.name}}</a>
-          </p>
-        </div>
-      </div>
+      <b-card
+        v-for="subject in subjects"
+        :key="subject.code"
+        :title="subject.name"
+        :sub-title="subject.code"
+      >
+        <b-button
+          v-for="link in subject.links"
+          :key="link"
+          target="_blank"
+          :href="link.address"
+          variant="primary"
+        >{{link.name}}</b-button>
+      </b-card>
     </div>
   </div>
 </template>
@@ -37,9 +41,10 @@ export default Vue.extend({
           links: [
             {
               name: "Math FELD",
-              address: "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
+              address:
+                "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
             },
-             {
+            {
               name: "Moodle",
               address: "https://moodle.fel.cvut.cz/course/view.php?id=4542"
             }
