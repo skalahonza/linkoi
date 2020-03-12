@@ -64,6 +64,26 @@ export default Vue.extend({
               address: "https://cw.fel.cvut.cz/wiki/courses/b4m36esw/start"
             }
           ]
+        },
+        {
+          name: "Planning for Artificial Intelligence",
+          code: "B4M36PUI/BE4M36PUI",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/b192/courses/be4m36pui/start"
+            }
+          ]
+        },
+        {
+          name: "Symbolic Machine Learning",
+          code: "B4M46SMU/BE4M46SMU",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/smu/start"
+            }
+          ]
         }
       ]
     };
