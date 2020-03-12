@@ -94,6 +94,16 @@ export default Vue.extend({
               address: "https://moodle.fel.cvut.cz/enrol/index.php?id=4809"
             }
           ]
+        },
+        {
+          name: "Spatial Design",
+          code: "B4M39PTV",
+          links: [
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/enrol/index.php?id=4809"
+            }
+          ]
         }
       ]
     };
