@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <div id="app">
+  <div class="home">    
       <b-card
         v-for="subject in subjects"
         :key="subject.code"
@@ -14,8 +13,7 @@
           :href="link.address"
           variant="primary"
         >{{link.name}}</b-button>
-      </b-card>
-    </div>
+      </b-card>    
   </div>
 </template>
 
@@ -115,6 +113,3 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style lang="less">
-</style>
