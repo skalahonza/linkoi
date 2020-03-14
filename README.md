@@ -14,7 +14,3 @@ NPM is the recommended installation method when building large scale apps with V
 You can easily develop locally. Every code change is instantly synchronized to the browser window.
 
 `npm run serve`
-
-### Publishing for production
-`npm run build`
-`git add . && git commit -m "your changes" && git push`
