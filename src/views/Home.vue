@@ -7,11 +7,12 @@
         :sub-title="subject.code"
       >
         <b-button
+          pill
           v-for="link in subject.links"
-          :key="link"
+          :key="link.address"
           target="_blank"
-          :href="link.address"
-          variant="primary"
+          :href="link.address"                                          
+          v-bind:variant="linkType(link.name)"          
         >{{link.name}}</b-button>
       </b-card>    
   </div>
@@ -19,7 +20,16 @@
 
 <script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
+export default Vue.extend({ 
+  methods:{
+    linkType: function (name: string): string{      
+      switch(name){
+        case "Moodle": return "primary";
+        case "Courseware": return "success";
+        default: return "secondary";
+      }
+    }
+  }, 
   data() {
     return {
       subjects: [
@@ -39,8 +49,7 @@ export default Vue.extend({
           links: [
             {
               name: "Math FELD",
-              address:
-                "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
+              address: "http://math.feld.cvut.cz/demlova/teaching/tal_vyuka.html"
             },
             {
               name: "Moodle",
