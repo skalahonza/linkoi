@@ -26,6 +26,7 @@ export default Vue.extend({
       switch(name){
         case "Moodle": return "primary";
         case "Courseware": return "success";
+        case "Teams": return "info";
         default: return "secondary";
       }
     }
@@ -64,6 +65,10 @@ export default Vue.extend({
             {
               name: "Moodle",
               address: "https://moodle.fel.cvut.cz/course/view.php?id=4982"
+            },
+            {
+              name: "Teams",
+              address: "https://teams.microsoft.com/l/team/19%3a465c54787d7e4b9b8740e58eeb9a5a55%40thread.tacv2/conversations?groupId=02e6b8d0-78a5-4e49-8367-9b952bc4cfac&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
             }
           ]
         },
