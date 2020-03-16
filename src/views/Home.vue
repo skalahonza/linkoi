@@ -38,6 +38,7 @@ export default Vue.extend({
           name: "Combinatorial Optimization",
           code: "B4M35KO",
           links: [
+
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/ko/start"
@@ -79,6 +80,10 @@ export default Vue.extend({
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/b4m36esw/start"
+            },
+            {
+              name: "Teams",
+              address: "https://teams.microsoft.com/l/team/19%3a5aad055a96f94e8abba8ad6fdffc0584%40thread.tacv2/conversations?groupId=5df990ab-0cb2-4268-acf9-53d5d14b4a78&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
             }
           ]
         },
