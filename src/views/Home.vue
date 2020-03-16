@@ -6,14 +6,15 @@
       :title="subject.name"
       :sub-title="subject.code"
     >
-      <b-button
-        pill
+    <b-button-group>
+      <b-button        
         v-for="link in subject.links"
         :key="link.address"
         target="_blank"
         :href="link.address"
         v-bind:variant="linkType(link.name)"
       >{{link.name}}</b-button>
+      </b-button-group>
     </b-card>
   </div>
 </template>
