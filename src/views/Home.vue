@@ -32,6 +32,7 @@ export default Vue.extend({
         case "Teams":
           return "info";
         case "Office 365":
+        case "YouTube":
           return "danger";
         case "Brute":
           return "dark";
@@ -75,6 +76,10 @@ export default Vue.extend({
             },
             {
               name: "Stream",
+              address: "https://youtu.be/apQFijP8xr8"
+            },
+            {
+              name: "YouTube",
               address: "https://youtu.be/apQFijP8xr8"
             }
           ]
