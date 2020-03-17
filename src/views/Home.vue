@@ -72,6 +72,10 @@ export default Vue.extend({
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/ko/start"
+            },
+            {
+              name: "Stream",
+              address: "https://youtu.be/apQFijP8xr8"
             }
           ]
         },
