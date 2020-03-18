@@ -96,6 +96,10 @@ export default Vue.extend({
             {
               name: "Moodle",
               address: "https://moodle.fel.cvut.cz/course/view.php?id=4542"
+            },
+            {
+              name: "Teams",
+              address: "https://teams.microsoft.com/l/team/19%3af8fd8b77cc7d4ca7a16608c1aa640305%40thread.tacv2/conversations?groupId=95b91ba2-53fc-4346-be06-7cfdae54d142&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
             }
           ]
         },
