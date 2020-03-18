@@ -1,6 +1,10 @@
 # LinkOI
 Waypoint  for school subjects of CTU in Prague OI masters.
 
+![Deploy to GitHub Pages](https://github.com/skalahonza/linkoi/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+
+:eyes: [linkoi.cz](https://linkoi.cz)
+
 # VueJS
 ## Instalation
 ### NPM
