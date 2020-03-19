@@ -79,8 +79,12 @@ export default Vue.extend({
               address: "https://youtu.be/apQFijP8xr8"
             },
             {
-              name: "YouTube",
-              address: "https://youtu.be/apQFijP8xr8"
+              name: "YouTube - Lectures",
+              address: "https://www.youtube.com/playlist?list=PLQL6z4JeTTQlKMedf1yTuoVyDzYYfOQMX"
+            },
+            {
+              name: "YouTube - Lab videos",
+              address: "https://www.youtube.com/playlist?list=PLhMDoPPJXZWQr3a4IOw0FYVWEMq9w3t0J"
             }
           ]
         },
