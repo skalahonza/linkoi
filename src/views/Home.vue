@@ -172,6 +172,21 @@ export default Vue.extend({
               address: "https://moodle.fel.cvut.cz/enrol/index.php?id=4809"
             }
           ]
+        },
+        {
+          name: "Mathematical Cryptography",
+          code: "B4M01MKR",
+          links: [
+            {
+              name: "Math FELD",
+              address:
+                "http://math.feld.cvut.cz/gollova/mkr.html"
+            },
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/course/view.php?id=4953"
+            }
+          ]
         }
       ]
     };
