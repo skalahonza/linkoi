@@ -9,6 +9,10 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/github',
+    beforeEnter() { location.href = 'https://github.com/skalahonza/linkoi' }
   }
 ]
 

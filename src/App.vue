@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Subjects</router-link>
+      <router-link to="/">Subjects</router-link> |
+      <a target= '_blank' href="https://github.com/skalahonza/linkoi">GitHub</a>      
     </div>
     <router-view />
   </div>
