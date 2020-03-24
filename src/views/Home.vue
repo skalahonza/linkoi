@@ -76,7 +76,7 @@ export default Vue.extend({
             },
             {
               name: "Stream",
-              address: "https://youtu.be/apQFijP8xr8"
+              address: "https://youtu.be/mc-E33EUOV0"
             },
             {
               name: "YouTube - Lectures",
