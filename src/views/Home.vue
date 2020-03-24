@@ -54,7 +54,7 @@ export default Vue.extend({
             },
             {
               name: "Lectures/Labs recordings",
-              address: "https://web.microsoftstream.com/"
+              address: "https://web.microsoftstream.com/browse?view=group"
             },
             {
               name: "Moodle",
