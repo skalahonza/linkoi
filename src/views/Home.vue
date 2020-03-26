@@ -6,14 +6,14 @@
       :title="subject.name"
       :sub-title="subject.code"
     >
-    <b-button-group>
-      <b-button        
-        v-for="link in subject.links"
-        :key="link.address"
-        target="_blank"
-        :href="link.address"
-        v-bind:variant="linkType(link.name)"
-      >{{link.name}}</b-button>
+      <b-button-group>
+        <b-button
+          v-for="link in subject.links"
+          :key="link.address"
+          target="_blank"
+          :href="link.address"
+          v-bind:variant="linkType(link.name)"
+        >{{link.name}}</b-button>
       </b-button-group>
     </b-card>
   </div>
@@ -36,6 +36,8 @@ export default Vue.extend({
           return "danger";
         case "Brute":
           return "dark";
+        case "Forum":
+          return "warning";
         default:
           return "secondary";
       }
@@ -79,12 +81,18 @@ export default Vue.extend({
               address: "https://youtu.be/apQFijP8xr8"
             },
             {
+              name: "Forum",
+              address: "https://cw.felk.cvut.cz/forum/forum-1623-page-1.html"
+            },
+            {
               name: "YouTube - Lectures",
-              address: "https://www.youtube.com/playlist?list=PLQL6z4JeTTQlKMedf1yTuoVyDzYYfOQMX"
+              address:
+                "https://www.youtube.com/playlist?list=PLQL6z4JeTTQlKMedf1yTuoVyDzYYfOQMX"
             },
             {
               name: "YouTube - Lab videos",
-              address: "https://www.youtube.com/playlist?list=PLhMDoPPJXZWQr3a4IOw0FYVWEMq9w3t0J"
+              address:
+                "https://www.youtube.com/playlist?list=PLhMDoPPJXZWQr3a4IOw0FYVWEMq9w3t0J"
             }
           ]
         },
@@ -103,7 +111,8 @@ export default Vue.extend({
             },
             {
               name: "Teams",
-              address: "https://teams.microsoft.com/l/team/19%3af8fd8b77cc7d4ca7a16608c1aa640305%40thread.tacv2/conversations?groupId=95b91ba2-53fc-4346-be06-7cfdae54d142&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
+              address:
+                "https://teams.microsoft.com/l/team/19%3af8fd8b77cc7d4ca7a16608c1aa640305%40thread.tacv2/conversations?groupId=95b91ba2-53fc-4346-be06-7cfdae54d142&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
             }
           ]
         },
@@ -183,8 +192,7 @@ export default Vue.extend({
           links: [
             {
               name: "Math FELD",
-              address:
-                "http://math.feld.cvut.cz/gollova/mkr.html"
+              address: "http://math.feld.cvut.cz/gollova/mkr.html"
             },
             {
               name: "Moodle",
