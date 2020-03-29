@@ -163,6 +163,10 @@ export default Vue.extend({
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/smu/start"
+            },
+            {
+              name: "Forum",
+              address: "https://cw.felk.cvut.cz/forum/forum-1633.html"
             }
           ]
         },
