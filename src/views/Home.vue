@@ -78,7 +78,7 @@ export default Vue.extend({
             },
             {
               name: "Stream",
-              address: "https://youtu.be/mc-E33EUOV0"
+              address: "https://youtu.be/VFLm7cgzYQ4"
             },
             {
               name: "Forum",
@@ -167,6 +167,10 @@ export default Vue.extend({
             {
               name: "Forum",
               address: "https://cw.felk.cvut.cz/forum/forum-1633.html"
+            },
+            {
+              name: "Lecture recordings",
+              address: "https://web.microsoftstream.com/group/d75ffc87-2e08-4fa5-903c-2fd4cbe820ea"
             }
           ]
         },
