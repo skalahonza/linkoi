@@ -153,6 +153,10 @@ export default Vue.extend({
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/b192/courses/be4m36pui/start"
+            },
+            {
+              name: "Youtube - Lectures",
+              address: "https://www.youtube.com/playlist?list=PLV1VrPDl1-1_IiRuuoyFZ7GQOfrv1hZIp"
             }
           ]
         },
