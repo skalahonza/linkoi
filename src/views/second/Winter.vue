@@ -116,7 +116,17 @@ export default Vue.extend({
             {
               name: "Courseware",
               address: "https://cw.fel.cvut.cz/wiki/courses/be4m33ssu/start",
-            }
+            },
+          ],
+        },
+        {
+          name: "Evoluční optimalizační algoritmy",
+          code: "A0M33EOA",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/a0m33eoa/start",
+            },
           ],
         },
 
