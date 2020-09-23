@@ -34,6 +34,7 @@ export default Vue.extend({
           return "info";
         case "Office 365":
         case "YouTube":
+        case "Google":
           return "danger";
         case "Brute":
           return "dark";
@@ -70,6 +71,40 @@ export default Vue.extend({
           ],
         },
         {
+          name: "System security (Bezpečnost systémů)",
+          code: "B4M36BSY",
+          links: [
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/course/view.php?id=5412",
+            },
+            {
+              name: "Google",
+              address: "https://sites.google.com/aic.fel.cvut.cz/b4m36bsy/",
+            },
+            {
+              name: "Teams",
+              address:
+                "https://teams.microsoft.com/l/team/19%3a2320318e467d41f0b05ef4cd541ab72b%40thread.tacv2/conversations?groupId=0b3ee019-4c67-4115-aedd-d593d8e47540&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
+            },
+          ],
+        },
+        {
+          name: "Parallel Algorithms",
+          code: "BE4M35PAG",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/pag/start",
+            },
+            {
+              name: "Teams",
+              address:
+                "https://teams.microsoft.com/l/channel/19%3a2b18107c58c4420981843d8c216480a6%40thread.tacv2/General?groupId=f11be53f-9eb4-496f-a17f-b694440d33ac&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
+            },
+          ],
+        },
+        {
           name: "Big Data Technologies",
           code: "B0M33BDT",
           links: [
@@ -86,28 +121,12 @@ export default Vue.extend({
           links: [
             {
               name: "Courseware",
-              address:
-                "https://cw.fel.cvut.cz/wiki/courses/be0b17mtb/start",
+              address: "https://cw.fel.cvut.cz/wiki/courses/be0b17mtb/start",
             },
             {
               name: "Teams",
               address:
                 "https://teams.microsoft.com/l/team/19%3a5599e3b45df6460692a4d4985bb70d2c%40thread.tacv2/conversations?groupId=9ac0a2f1-ad5a-4920-bb79-a25f303730b5&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
-            },
-          ],
-        },
-        {
-          name: "Parallel Algorithms",
-          code: "BE4M35PAG",
-          links: [
-            {
-              name: "Courseware",
-              address: "https://cw.fel.cvut.cz/wiki/courses/pag/start",
-            },
-            {
-              name: "Teams",
-              address:
-                "https://teams.microsoft.com/l/channel/19%3a2b18107c58c4420981843d8c216480a6%40thread.tacv2/General?groupId=f11be53f-9eb4-496f-a17f-b694440d33ac&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
           ],
         },
