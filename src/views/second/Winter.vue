@@ -1,12 +1,8 @@
 <template>
   <div class="home">
-    <div
-      v-for="subject in subjects"
-      :key="subject.code"
-      style="border: none"
-    >
-      <h4>{{subject.name}}</h4>
-      <h6>{{subject.code}}</h6>
+    <div v-for="subject in subjects" :key="subject.code" style="border: none">
+      <h4>{{ subject.name }}</h4>
+      <h6>{{ subject.code }}</h6>
       <b-button-group>
         <b-button
           v-for="link in subject.links"
@@ -87,9 +83,14 @@ export default Vue.extend({
               address:
                 "https://teams.microsoft.com/l/channel/19%3a2b18107c58c4420981843d8c216480a6%40thread.tacv2/General?groupId=f11be53f-9eb4-496f-a17f-b694440d33ac&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
+            {
+              name: "Recordings",
+              address:
+                "https://web.microsoftstream.com/group/f11be53f-9eb4-496f-a17f-b694440d33ac",
+            },
           ],
         },
-                {
+        {
           name: "Ontologies and Semantic Web",
           code: "B4M36OSW",
           links: [
