@@ -89,8 +89,9 @@ export default Vue.extend({
             },
             {
               name: "Mailing List",
-              address:"https://list.feld.cvut.cz/cgi-bin/mailman/listinfo/b4m36bsy"
-            }
+              address:
+                "https://list.feld.cvut.cz/cgi-bin/mailman/listinfo/b4m36bsy",
+            },
           ],
         },
         {
@@ -116,6 +117,17 @@ export default Vue.extend({
               name: "Courseware",
               address:
                 "https://cw.fel.cvut.cz/wiki/courses/b0m33bdt/start?animal=wiki",
+            },
+          ],
+        },
+        {
+          name:
+            "Internet Applications Development (Vývoj internetových aplikací)",
+          code: "A4M33VIA",
+          links: [
+            {
+              name: "Google",
+              address: "https://sites.google.com/a/via.felk.cvut.cz/via/",
             },
           ],
         },
