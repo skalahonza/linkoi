@@ -110,6 +110,17 @@ export default Vue.extend({
           ],
         },
         {
+          name: "Statistical Machine Learning",
+          code: "BE4M33SSU",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/be4m33ssu/start",
+            }
+          ],
+        },
+
+        {
           name: "Big Data Technologies",
           code: "B0M33BDT",
           links: [
