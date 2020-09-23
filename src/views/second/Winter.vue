@@ -13,7 +13,8 @@
           target="_blank"
           :href="link.address"
           v-bind:variant="linkType(link.name)"
-        >{{link.name}}</b-button>
+          >{{ link.name }}</b-button
+        >
       </b-button-group>
     </b-card>
   </div>
@@ -76,6 +77,17 @@ export default Vue.extend({
               name: "Courseware",
               address:
                 "https://cw.fel.cvut.cz/wiki/courses/b0m33bdt/start?animal=wiki",
+            },
+          ],
+        },
+        {
+          name: "Matlab",
+          code: "BE0B17MTB",
+          links: [
+            {
+              name: "Courseware",
+              address:
+                "https://cw.fel.cvut.cz/wiki/courses/be0b17mtb/start",
             },
           ],
         },
