@@ -1,11 +1,12 @@
 <template>
   <div class="home">
-    <b-card
+    <div
       v-for="subject in subjects"
       :key="subject.code"
-      :title="subject.name"
-      :sub-title="subject.code"
+      style="border: none"
     >
+      <h4>{{subject.name}}</h4>
+      <h6>{{subject.code}}</h6>
       <b-button-group>
         <b-button
           v-for="link in subject.links"
@@ -16,7 +17,8 @@
           >{{ link.name }}</b-button
         >
       </b-button-group>
-    </b-card>
+      <hr />
+    </div>
   </div>
 </template>
 
@@ -48,28 +50,6 @@ export default Vue.extend({
   data() {
     return {
       subjects: [
-        {
-          name: "Useful Links",
-          code: "",
-          links: [
-            {
-              name: "Office 365",
-              address: "https://office365.cvut.cz",
-            },
-            {
-              name: "Lectures/Labs recordings",
-              address: "https://web.microsoftstream.com/browse?view=group",
-            },
-            {
-              name: "Moodle",
-              address: "https://moodle.fel.cvut.cz/",
-            },
-            {
-              name: "Brute",
-              address: "https://cw.felk.cvut.cz/brute/student/",
-            },
-          ],
-        },
         {
           name: "System security (Bezpečnost systémů)",
           code: "B4M36BSY",
