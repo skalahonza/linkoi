@@ -109,6 +109,16 @@ export default Vue.extend({
             },
           ],
         },
+                {
+          name: "Ontologies and Semantic Web",
+          code: "B4M36OSW",
+          links: [
+            {
+              name: "Courseware",
+              address: "https://cw.fel.cvut.cz/wiki/courses/osw/start",
+            },
+          ],
+        },
         {
           name: "Statistical Machine Learning",
           code: "BE4M33SSU",
@@ -129,7 +139,6 @@ export default Vue.extend({
             },
           ],
         },
-
         {
           name: "Big Data Technologies",
           code: "B0M33BDT",
