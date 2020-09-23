@@ -87,6 +87,10 @@ export default Vue.extend({
               address:
                 "https://teams.microsoft.com/l/team/19%3a2320318e467d41f0b05ef4cd541ab72b%40thread.tacv2/conversations?groupId=0b3ee019-4c67-4115-aedd-d593d8e47540&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
+            {
+              name: "Mailing List",
+              address:"https://list.feld.cvut.cz/cgi-bin/mailman/listinfo/b4m36bsy"
+            }
           ],
         },
         {
