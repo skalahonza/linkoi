@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import FirstSummer from '../views/first/Summer.vue'
+import SecondWinter from '../views/second/Winter.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +9,17 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: SecondWinter
+  },
+  {
+    path: '/first/summer',
+    name: 'First Summer',
+    component: FirstSummer
+  },
+  {
+    path: '/second/winter',
+    name: 'Second Winter',
+    component: SecondWinter
   },
   {
     path: '/github',
