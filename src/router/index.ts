@@ -8,8 +8,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: SecondWinter
+    redirect: '/second/winter',
   },
   {
     path: '/first/summer',
