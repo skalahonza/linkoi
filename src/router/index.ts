@@ -20,10 +20,6 @@ const routes = [
     path: '/second/winter',
     name: 'Second Winter',
     component: SecondWinter
-  },
-  {
-    path: '/github',
-    beforeEnter() { location.href = 'https://github.com/skalahonza/linkoi' }
   }
 ]
 
