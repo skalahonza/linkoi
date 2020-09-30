@@ -35,6 +35,7 @@ export default Vue.extend({
         case "Google":
           return "danger";
         case "Brute":
+        case "GitHub":
           return "dark";
         case "Forum":
           return "warning";
@@ -133,6 +134,16 @@ export default Vue.extend({
               name: "Teams",
               address:
                 "https://teams.microsoft.com/l/team/19%3abbb3a17988dd429a85e5bb75e55976c3%40thread.tacv2/conversations?groupId=59f14ebe-3633-4c79-be8f-616535737b43&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
+            },
+            {
+              name: "GitHub",
+              address:
+                "https://github.com/stameser/BDT",
+            },
+            {
+              name: "Metacentrum",
+              address:
+                "https://wiki.metacentrum.cz/wiki/Hadoop",
             },
           ],
         },
