@@ -80,6 +80,10 @@ export default Vue.extend({
               address: "https://cw.fel.cvut.cz/wiki/courses/pag/start",
             },
             {
+              name: "Lecture stream (Zoom)",
+              address: "https://zoom.us/j/4385398414?pwd=ek1RaCtxc2xXVURzenFDWmFNODZsZz09",
+            },
+            {
               name: "Teams",
               address:
                 "https://teams.microsoft.com/l/channel/19%3a2b18107c58c4420981843d8c216480a6%40thread.tacv2/General?groupId=f11be53f-9eb4-496f-a17f-b694440d33ac&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
