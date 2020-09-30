@@ -61,7 +61,7 @@ export default Vue.extend({
             {
               name: "Teams",
               address:
-                "https://teams.microsoft.com/l/team/19%3a2320318e467d41f0b05ef4cd541ab72b%40thread.tacv2/conversations?groupId=0b3ee019-4c67-4115-aedd-d593d8e47540&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
+                "https://teams.microsoft.com/l/team/19%3aa1df7fe34d914313b08406b1404f86fa%40thread.tacv2/conversations?groupId=7e14d4e5-7d9b-40bd-92c7-226bfcd8a1c3&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
             {
               name: "Mailing List",
@@ -128,6 +128,11 @@ export default Vue.extend({
               name: "Courseware",
               address:
                 "https://cw.fel.cvut.cz/wiki/courses/b0m33bdt/start?animal=wiki",
+            },
+            {
+              name: "Teams",
+              address:
+                "https://teams.microsoft.com/l/team/19%3abbb3a17988dd429a85e5bb75e55976c3%40thread.tacv2/conversations?groupId=59f14ebe-3633-4c79-be8f-616535737b43&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
           ],
         },
