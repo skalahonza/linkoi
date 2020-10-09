@@ -160,6 +160,10 @@ export default Vue.extend({
               name: "Google",
               address: "https://sites.google.com/a/via.felk.cvut.cz/via/",
             },
+            {
+              name: "Stream",
+              address: "https://meet.google.com/wrh-qmqx-vap",
+            },
           ],
         },
         {
