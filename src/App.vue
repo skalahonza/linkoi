@@ -19,6 +19,12 @@
         >
         <b-button
           target="_blank"
+          variant="info"
+          href="https://teams.microsoft.com/"
+          >Teams</b-button
+        >
+        <b-button
+          target="_blank"
           variant="secondary"
           href="https://web.microsoftstream.com/browse?view=group"
           >Lectures/Labs recordings</b-button
