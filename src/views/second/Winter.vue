@@ -161,6 +161,10 @@ export default Vue.extend({
               address: "https://sites.google.com/a/via.felk.cvut.cz/via/",
             },
             {
+              name: "Teams",
+              address: "https://teams.microsoft.com/",
+            },
+            {
               name: "Stream",
               address: "https://meet.google.com/wrh-qmqx-vap",
             },
