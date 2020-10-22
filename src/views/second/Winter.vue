@@ -69,6 +69,11 @@ export default Vue.extend({
               address:
                 "https://list.feld.cvut.cz/cgi-bin/mailman/listinfo/b4m36bsy",
             },
+            {
+              name: "Lecture Stream",
+              address:
+                "https://studuj.net/b/jos-fxy-k18-f9s",
+            },
           ],
         },
         {
