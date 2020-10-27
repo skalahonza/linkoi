@@ -188,6 +188,11 @@ export default Vue.extend({
               address:
                 "https://teams.microsoft.com/l/team/19%3a5599e3b45df6460692a4d4985bb70d2c%40thread.tacv2/conversations?groupId=9ac0a2f1-ad5a-4920-bb79-a25f303730b5&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8",
             },
+            {
+              name: "Topic reservations",
+              address:
+                "https://docs.google.com/spreadsheets/d/1NqSQpL2tGGXPfISO7ueviEu27eYugsbQsgVTyMxbu5k/edit#gid=0",
+            },
           ],
         },
       ],
