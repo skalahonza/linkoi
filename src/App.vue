@@ -39,7 +39,7 @@
           target="_blank"
           variant="dark"
           href="https://cw.felk.cvut.cz/brute/student/"
-          >Burte</b-button
+          >Brute</b-button
         >
       </b-button-group>
       <hr />
