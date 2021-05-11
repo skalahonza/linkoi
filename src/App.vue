@@ -2,6 +2,7 @@
   <div id="app">
     <b-container>
       <div id="nav">
+        <router-link to="/first/winter">First year: Winter</router-link> |
         <router-link to="/first/summer">First year: Summer</router-link> |
         <router-link to="/second/winter">Second year: Winter</router-link> |
         <a target="_blank" href="https://github.com/skalahonza/linkoi"

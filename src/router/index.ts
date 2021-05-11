@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import FirstWinter from '../views/first/Winter.vue'
 import FirstSummer from '../views/first/Summer.vue'
 import SecondWinter from '../views/second/Winter.vue'
 
@@ -9,6 +10,11 @@ const routes = [
   {
     path: '/',
     redirect: '/second/winter',
+  },
+  {
+    path: '/first/winter',
+    name: 'First Winter',
+    component: FirstWinter
   },
   {
     path: '/first/summer',
