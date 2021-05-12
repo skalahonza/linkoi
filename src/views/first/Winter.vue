@@ -57,6 +57,16 @@ export default Vue.extend({
             }
           ],
         },
+        {
+          name: "Database Systems 2",
+          code: "B4M36DS2",
+          links: [
+            {
+              name: "Other",
+              address: "https://www.ksi.mff.cuni.cz/~svoboda/courses/201-B4M36DS2/",
+            }
+          ],
+        },
       ],
     };
   },
