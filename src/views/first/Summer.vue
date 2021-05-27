@@ -124,6 +124,10 @@ export default Vue.extend({
               name: "Teams",
               address:
                 "https://teams.microsoft.com/l/team/19%3a5aad055a96f94e8abba8ad6fdffc0584%40thread.tacv2/conversations?groupId=5df990ab-0cb2-4268-acf9-53d5d14b4a78&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8"
+            },
+            {
+              name: "Handout",
+              address: "http://oi-by-teaparty.eu/domains/oi-by-teaparty.eu/lib/exe/fetch.php/courses/esw_guide.pdf"
             }
           ]
         },
