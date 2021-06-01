@@ -58,6 +58,16 @@ export default Vue.extend({
           ],
         },
         {
+          name: "Zajištění kvality software (Software Quality Assurance)",
+          code: "B(E)4M36ZKS",
+          links: [
+            {
+              name: "Moodle",
+              address: "https://moodle.fel.cvut.cz/course/view.php?id=4363",
+            }
+          ],
+        },
+        {
           name: "Database Systems 2",
           code: "B4M36DS2",
           links: [
